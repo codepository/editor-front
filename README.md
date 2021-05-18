@@ -1,29 +1,14 @@
 # editor
 
-## Project setup
-```
-npm install
-```
+## SVG 编辑器
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 注意
 
-### Compiles and minifies for production
-```
-npm run build
-```
+所有id属性将无效
 
-### Run your tests
-```
-npm run test
-```
+文字内容必须用p标签包裹
 
-### Lints and fixes files
-```
-npm run lint
-```
+svg中的text标签必须用g标签包裹
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+SVG的g标签中只能包含一个text标签和animate标签
+"# editor-front" 
